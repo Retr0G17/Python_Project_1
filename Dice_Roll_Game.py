@@ -19,7 +19,7 @@ import random
 
 
 def Play(choice, amount):
-    """Roll one or two dice, or exit when the player chooses no."""
+    #Roll one or two dice, or exit when the player chooses no.
     choice = choice.strip().lower()
 
     if choice == 'n':
